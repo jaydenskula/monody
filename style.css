@@ -14,7 +14,12 @@ body
     font-size: 1.25em;
 }
 
-img
+.docu-image
 {
-    width: 30em;
+    width: 600px;
+}
+
+.docu-image-large
+{
+    width: 1000px;
 }
