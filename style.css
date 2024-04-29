@@ -5,6 +5,50 @@ body
     margin-bottom: 10em;
 }
 
+h1
+{
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Helvetica';
+    font-weight: lighter;
+}
+
+h2
+{
+    font-size: 1.25em;
+    text-align: center;
+    font-family: 'Helvetica';
+    font-weight: lighter;
+}
+
+#main-nav
+{
+    margin-top: 3em;
+    display: flex;
+    justify-content: space-between;
+}
+
+#main-nav-link
+{
+    font-size: 2em;
+    font-family: 'Helvetica';
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+a
+{
+    color: rgb(9, 107, 107);
+    text-decoration: none;
+    transition: ease-out;
+    transition-duration: 0.5s;
+}
+
+a:hover
+{
+    text-shadow: 2px 2px 2px rgb(180, 180, 180);
+}
+
 .section-header
 {
     font-size: 1.5em;
